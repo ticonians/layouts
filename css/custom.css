@@ -1,0 +1,49 @@
+/* Design time code 
+.c-header .span4 { border: 1px solid red; }
+.container { border: 1px solid green; }
+.button-area { border: 1px solid red; }
+.c-header2 .span4, .c-header .span3{ border: 1px solid blue; }
+.c-content .span4, .c-content .span2{ border: 1px solid black; }
+.footer { border: 1px solid red; }*/
+/* /Design time code */
+
+html, body {
+  min-width: 300px !important;
+}
+.container { width: 100%;  background: url(../img/bg.png) repeat; }
+.inner-container{ background: url(../img/lady.png) no-repeat; background-position: right top;}
+
+.row { margin-left: 0 !important;}
+.shop-logo { width: 80px !important; }
+.product-category { color:#3b5997; }
+.protection-period { padding: 8px 0 }
+.protection-period span { font-size: 1.8em; font-weight: 100; color:#3b5997;}
+ul.ul-nav { list-style-type: none; padding: 0 !important; margin: 0 !important;}
+ul.ul-nav li { line-height: 30px; font-weight: bold; color: #505050; }
+ul.ul-nav li span{padding-left: 10px;}
+.price-area {
+    background:red;
+    height:30px;
+    width:30px;
+    -moz-border-radius:64px;
+    -webkit-border-radius:64px;
+
+    padding:32px;
+    text-align:center;
+    color:white;
+    margin: 0 0 5px 60px;
+}
+.price-area .price { font-size: 12px; }
+.price-area .price .pre-price{ color:white; position: relative;  bottom:20px;}
+.price-area .price .post-price{ color:white; position: relative; right: 15px; top:12px; width: 60px;}
+.button-area { background: url(../img/buttn.png) no-repeat;  height: 45px; width: 240px; color: white; padding: 10px 0; text-align: center;}
+.au { width: 30%; float: left; padding: 10px;}
+.au img { padding-right: 5px; }
+
+
+
+.c-footer { background-color: #4e6bbc; height: auto; margin: 0; color:white;}
+.c-footer .footer-content {  }
+.right-footer { float: right; }
+.center-footer { float:left;  padding-left: 35%;}
+.left-footer { float:left; padding-left: 3%;}
