@@ -8,10 +8,12 @@
 /* /Design time code */
 
 html, body {
-  min-width: 300px !important;
+  //min-width: 960px !important;
 }
-.container { width: 100%;  background: url(../img/bg.png) repeat; }
-.inner-container{ background: url(../img/lady.png) no-repeat; background-position: right top;}
+
+.container { width: 100%; }
+.header-container { background: url(../images/bg.png) repeat; }
+.inner-container{ background: url(../images/girl.png) no-repeat; background-position: right top; height: 373px;}
 
 .row { margin-left: 0 !important;}
 .shop-logo { width: 80px !important; }
