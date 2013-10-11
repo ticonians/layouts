@@ -50,24 +50,23 @@ margin-left: 10px;
 .featured-list-h .featured-item { width: 120px !important }
 .featured-list-h .white-mobil{ background: url(../images/mobil.png); }
 
-.partners span { margin-left: 30px; }
-
 .price-area {
     background:url(../images/price.png) no-repeat;
     height:160px;
     width:160px;
     -moz-border-radius:64px;
     -webkit-border-radius:64px;
-
+    position: relative;
     padding:32px;
     text-align:center;
     color:white;
-    margin: 0 0 5px -70px;
+    margin: -260px 0 0 250px;
+    z-index: 1000;
 }
-.price-area { position:relative; right:20px; bottom: 10px; font-size: 12px; }
+.price-area { font-size: 12px; }
 .price-area .the-price .pre-price{ color:white; position: relative;  top:5px; right: 40px}
 .price-area .the-price .post-price{ color:white; position: relative; left: 10px; top:45px; width: 60px;}
-.button-area { background: url(../images/button.png) no-repeat;  height: 25px; width: 240px; color: white; padding: 10px 0; text-align: center; position: relative; bottom:5px;}
+.button-area { background: url(../images/button.png) no-repeat;  height: 25px; width: 240px; color: white; padding: 10px 0; text-align: center; position: relative; bottom:-13px;}
 a.protect-now, a.protect-now:hover { text-decoration: none; }
 .au { width: 30%; float: left; padding: 10px;}
 .au img { padding-right: 5px; }
@@ -224,18 +223,15 @@ vertical-align: middle;
 
 
 
-
-
-
-
-
-
-
 .partners-container {padding: 20px 0 40px 40px} 
+.partners-container .partners span { margin-left: 30px; }
+.partners-container .partners .span4, .partners-container .finanzwelt-img { margin-top: 20px }
+
+
 
 .advantages-table-container { padding: 25px 0 40px 0; }
 .versicherte-table tr, .versicherte-table td { border: 2px #ebedf2 solid; color: #3b5997;}
-//.versicherte-table .headline, .versicherte-table .even, .versicherte-table .odd{ width: 300px; }
+
 .versicherte-table .even,  .versicherte-table .headline{ background: #f6f6f6; }
 .versicherte-table .even img, .versicherte-table .odd img{ width: 15px;  padding: 5px;}
 .versicherte-table .even td { padding: 8px 10px; }
@@ -272,11 +268,16 @@ top: 0px; left: 60px;
 .protection-in .headline{ font-size: 1.8em; font-weight: 100; color:#3b5997; padding: 10px 0;}
 
 
-.pre-footer { background: #ebedf2; padding-top: 25px;}
-.pre-footer .header { font-size: 1.8em; font-weight: 100; color: #3b5997; padding-bottom: 15px;}
+.pre-footer { background: #ebedf2; padding: 25px 0;}
+.pre-footer .header { font-size: 1.9em; font-weight: 100; color: #3b5997; padding-bottom: 15px;}
 .pre-footer .prefooter-content { padding-top: 15px; }
 .pre-footer .title { color: #3b5997; }
-.pre-footer p { margin: 15px 0; }
+.pre-footer .prefooter-content { padding-top: 15px; text-align: justify;}
+.pre-footer .prefooter-content .row1 { padding-right: 80px; margin-left: 0 !important;}
+.pre-footer .prefooter-content .row2 { margin-left: 0 !important;}
+.pre-footer .prefooter-content .column1, .pre-footer .prefooter-content .column2 { height: 130px;}
+.pre-footer .prefooter-content .column1 .title, .pre-footer .prefooter-content .column2 .title{ font-size: 16px; }
+.pre-footer .prefooter-content .column1 p, .pre-footer .prefooter-content .column2 p{ margin: 10px 0 10px; }
 
 .c-footer { background-color: #4e6bbc; height: auto; margin: 0; color:white; padding-left: 20px; padding-bottom: 10px;}
 .c-footer .footer-content { padding: 10px 0; }
