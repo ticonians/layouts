@@ -50,8 +50,6 @@ margin-left: 10px;
 .featured-list-h .featured-item { width: 120px !important }
 .featured-list-h .white-mobil{ background: url(../images/mobil.png); }
 
-.partners span { margin-left: 30px; }
-
 .price-area {
     background:url(../images/price.png) no-repeat;
     height:160px;
@@ -224,18 +222,15 @@ vertical-align: middle;
 
 
 
-
-
-
-
-
-
-
 .partners-container {padding: 20px 0 40px 40px} 
+.partners-container .partners span { margin-left: 30px; }
+.partners-container .partners .span4, .partners-container .finanzwelt-img { margin-top: 20px }
+
+
 
 .advantages-table-container { padding: 25px 0 40px 0; }
 .versicherte-table tr, .versicherte-table td { border: 2px #ebedf2 solid; color: #3b5997;}
-//.versicherte-table .headline, .versicherte-table .even, .versicherte-table .odd{ width: 300px; }
+
 .versicherte-table .even,  .versicherte-table .headline{ background: #f6f6f6; }
 .versicherte-table .even img, .versicherte-table .odd img{ width: 15px;  padding: 5px;}
 .versicherte-table .even td { padding: 8px 10px; }
