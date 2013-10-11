@@ -37,10 +37,10 @@ margin-left: 10px;
 .protection-period span { font-size: 1.8em; font-weight: 100; color:#3b5997;}
 
 
-.payment-methods { position: relative; bottom: 30px; right: 30px; font-size: 12px;}
+.payment-methods { position: relative; bottom: 30px; font-size: 12px;}
 .co1-6 { float: left; padding-right: 20px; width: auto; max-width: 135px; text-align: center; color: #3b5997;}
 .featured-list-h{
-    padding-left: 60px !important;
+    padding-left: 45px !important;
     font-size: 15px;
     position: relative;
     padding-bottom: 10px;
@@ -77,14 +77,31 @@ ul.ul-nav li { line-height: 30px; font-weight: bold; color: #505050; }
 ul.ul-nav li span{padding-left: 5px;}
 
 .post-header {background-color: #ebedf2;}
-.post-header .post-header-content { border: 1px solid white; height:80px; position:relative; right: 35px; bottom: 40px; background: #4e6bbc; padding-top:20px; color:white; 
+.post-header .post-header-content { border: 1px solid white; height:80px; position:relative; right: 35px; bottom: 35px; background: #4e6bbc; padding-top:20px; color:white; 
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
 }
 .post-header .product-info {  }
+.post-header .arrow-container { position:relative; bottom: 210px; right:450px overflow:hidden; }
+.post-header .arrow-container .title-container { width: 130px; height: 50px; }
+.post-header .arrow-container .arrow-image { background: url(../images/funny-text.png) 0 -7px no-repeat; height: 80px; width:200px; margin-left:0 }
 
-.protections-container { background: #ebedf2; }
+.protections-container { background: #ebedf2; position:relative; bottom:70px;}
+
+.tooltip-inner {
+  max-width: 200px;
+  padding: 12px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  background-color: #23599a;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  text-align: left;
+}
+.tooltip .arrow { background: blue !important; }
 
 /* feature horizontal icons */
 [class^="ci-icons-"], [class*=" ci-icons-"]{
@@ -155,10 +172,6 @@ ul.ul-nav li span{padding-left: 5px;}
     background-position: -160px 15px;
 }
 
-tooltip { background: red; }
-
-
-
 /* feature vertical icons */
 [class^="cu-icons-"], [class*=" cu-icons-"]{
     background-image: url("../images/glyphblues.png");
@@ -223,8 +236,8 @@ vertical-align: middle;
 
 
 
-.partners-container {padding: 20px 0 40px 40px} 
-.partners-container .partners span { margin-left: 30px; }
+.partners-container {position:relative; bottom:40px; padding-left: 40px;} 
+.partners-container .row1 { margin-left: 30px; }
 .partners-container .partners .span4, .partners-container .finanzwelt-img { margin-top: 20px }
 
 
