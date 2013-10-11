@@ -230,6 +230,7 @@ vertical-align: middle;
 
 
 .advantages-table-container { padding: 25px 0 40px 0; }
+.versicherte-table { margin-left: 0; }
 .versicherte-table tr, .versicherte-table td { border: 2px #ebedf2 solid; color: #3b5997;}
 
 .versicherte-table .even,  .versicherte-table .headline{ background: #f6f6f6; }
@@ -259,7 +260,7 @@ display: inline-block;
 
 .versicherte-table .circle15 [class^="c-icons-"], .versicherte-table .circle15 [class*=" c-icons-"] {
 position: relative;
-top: 0px; left: 60px;
+top: 0px; left: 80px;
 }
 
 

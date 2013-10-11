@@ -198,7 +198,7 @@
       </div>
       <div class="row">
       <div class="advantages-table-container offset2 span10">
-        <table class="versicherte-table divided">
+        <table class="versicherte-table divided span11">
           <tbody>
             <tr class="headline">
               <td>Versicherte schaden</td>
@@ -299,17 +299,25 @@
        iframe.attr('src', '');
        iframe.attr('src', src);
    });
-$('#form_productGroup').change(function(){
-        $.get('/product/'+$('#form_productGroup').val(), function(data) {
-            $('#product_name').text(data.name);
-            $('#total_price').text(data.price + ' €');
-            $('#price').text(data.price + ' €');
-            $('#form_productGroupOption').val(data.option_id);
-            monthly_price = data.price / 12;
-            $('#monthly_price').text(monthly_price.toFixed(2) + ' € im Monat')
-        });
-});     
- });
+    var waitForFinalEvent = (function () {
+      var timers = {};
+      return function (callback, ms, uniqueId) {
+        if (!uniqueId) {
+          uniqueId = "Don't call this twice without a uniqueId";
+        }
+        if (timers[uniqueId]) {
+          clearTimeout (timers[uniqueId]);
+        }
+        timers[uniqueId] = setTimeout(callback, ms);
+      };
+    });
+    $(window).resize(function () {
+        waitForFinalEvent(function(){
+
+          //...
+        }, 500, "some unique string");
+});
+  });
  </script>
 </body>
 </html>
